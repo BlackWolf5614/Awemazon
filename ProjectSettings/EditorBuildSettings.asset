@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Awemazon.unity
-    guid: 376d97357791f2d4eac5a002932c763c
+  m_Scenes: []
   m_configObjects: {}
