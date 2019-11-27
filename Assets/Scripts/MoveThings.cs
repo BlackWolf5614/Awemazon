@@ -5,21 +5,54 @@ using UnityEngine;
 public class MoveThings : MonoBehaviour
 {
     public Transform targetPoint;
+    public static float timeToHalfwaypoint = 10f;
+    float timer;
+    float percent;
+    Vector3 difference;
+    Vector3 startPoint;
 
 
-    public float MoveSpeed = 0.25f;
     public float startDelay = 3f;
+    bool reachedTarget = false;
+    bool run = false;
+
 
     private void Start()
     {
-        InvokeRepeating("MoveDaThing", startDelay, 0.01f);
+        startPoint = transform.position;
+        difference = targetPoint.position - startPoint;
+        Invoke("StartDelay", startDelay);
     }
 
-
-    void MoveDaThing()
+    private void Update()
     {
-        //transform.position = Vector3.Lerp(transform.position, targetPoint.position, lerpSpeed);
+        if (run)
+        {
+            if (timer <= timeToHalfwaypoint && reachedTarget == false)
+            {
+                timer += Time.deltaTime;
+                percent = timer / timeToHalfwaypoint;
+                transform.position = startPoint + difference * percent;
+            }
+            else
+            {
+                if (reachedTarget == false)
+                {
+                    reachedTarget = true;
+                }
+                timer -= Time.deltaTime;
+                percent = timer / timeToHalfwaypoint;
+                transform.position = startPoint + difference * percent;
+                if (percent <= 0)
+                {
+                    run = false;
+                }
+            }
+        }
+    }
 
-        transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, MoveSpeed);
+    void StartDelay()
+    {
+        run = true;
     }
 }
