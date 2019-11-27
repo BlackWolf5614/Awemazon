@@ -7,7 +7,7 @@ public class MoveThings : MonoBehaviour
     public Transform targetPoint;
 
 
-    public float lerpSpeed = 0.25f;
+    public float MoveSpeed = 0.25f;
     public float startDelay = 3f;
 
     private void Start()
@@ -20,6 +20,6 @@ public class MoveThings : MonoBehaviour
     {
         //transform.position = Vector3.Lerp(transform.position, targetPoint.position, lerpSpeed);
 
-        transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, lerpSpeed);
+        transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, MoveSpeed);
     }
 }

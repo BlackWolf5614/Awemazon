@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!4 &103197717 stripped
 Transform:
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1 &526556032
 GameObject:
@@ -542,7 +542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1001 &718203861
 PrefabInstance:
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1001 &1042748199
 PrefabInstance:
@@ -722,7 +722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1001 &1105300256
 PrefabInstance:
@@ -951,7 +951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1001 &1277646717
 PrefabInstance:
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1 &1461699886 stripped
 GameObject:
@@ -1383,7 +1383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1 &1474671055
 GameObject:
@@ -1458,7 +1458,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 9.1837e-41, y: 3.4e-44, z: -1.532e-42, w: 1.7e-44}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1001 &1841394060
 PrefabInstance:
@@ -1809,7 +1809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1858194619}
-  lerpSpeed: 0.01
+  MoveSpeed: 0.25
   startDelay: 3
 --- !u!1001 &2058778188
 PrefabInstance:
