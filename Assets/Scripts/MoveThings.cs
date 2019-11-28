@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveThings : MonoBehaviour
 {
     public Transform targetPoint;
-    public static float timeToHalfwaypoint = 10f;
+    public static float timeToHalfwaypoint = 75f;
     float timer;
     float percent;
     Vector3 difference;
