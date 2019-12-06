@@ -3,7 +3,13 @@ guid: 8cb26fccfd134f241bfcca06608f1615
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0054_Whale_v2
+    second: {fileID: 8344901704355272523, guid: 8cb26fccfd134f241bfcca06608f1615,
+      type: 3}
   materials:
     importMaterials: 1
     materialName: 0

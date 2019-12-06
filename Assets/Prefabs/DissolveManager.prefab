@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6151224346045880063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6151224346045880061}
+  - component: {fileID: 6151224346045880062}
+  m_Layer: 0
+  m_Name: DissolveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6151224346045880061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151224346045880063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6151224346045880062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151224346045880063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6e3e32c3aba484c96889b2afe615ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateGlobal: 1
+  materials:
+  - {fileID: 2100000, guid: ac06b2f65261b2547b318fb394bd5fdf, type: 2}
+  - {fileID: 2100000, guid: c17d2d51280fe25418698d199ebd809c, type: 2}
+  - {fileID: 2100000, guid: bb8d99226744cda4396eadf881607c7d, type: 2}
+  - {fileID: 2100000, guid: e78d161a7e7daf2468167ec47c55fbd8, type: 2}
+  - {fileID: 2100000, guid: 06685a376db806147b949cae1f9deedb, type: 2}
+  - {fileID: 2100000, guid: 6872641229f10144b9f8fa8820507e06, type: 2}
+  - {fileID: 2100000, guid: 1e20e0e70c108de4ea8a706242def419, type: 2}
+  - {fileID: 2100000, guid: e9573090ea7f28b4e92ba42a7153d8ec, type: 2}
+  - {fileID: 2100000, guid: 9572eee90b45dd945963fdec9719463c, type: 2}
+  - {fileID: 2100000, guid: b14bdbd2a837feb46b816c40dfb37c3b, type: 2}
+  - {fileID: 2100000, guid: 5d3a5409275e39547b00b9b4f35e3a48, type: 2}
+  - {fileID: 2100000, guid: 5b73266688e9add41bcfbe5bf8ae09b2, type: 2}
+  - {fileID: 2100000, guid: 2f364bdecddcbc94b9def69b6eeb2fb5, type: 2}
+  - {fileID: 2100000, guid: 404cd371fe359ea4a85f803b84183b90, type: 2}
+  - {fileID: 2100000, guid: d627901d1dddd2343a16cf554fdc3f6e, type: 2}
+  sphere1: {fileID: 0}
+  sphere2: {fileID: 0}
+  sphere3: {fileID: 0}
+  sphere4: {fileID: 0}
+  invert: 1
