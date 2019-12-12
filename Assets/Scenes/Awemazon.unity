@@ -4744,6 +4744,11 @@ PrefabInstance:
       propertyPath: startDelay.scalar
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 5673800714708627955, guid: 92bb5548085a7a7489387d7170feac67,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5673800714708627954, guid: 92bb5548085a7a7489387d7170feac67,
         type: 3}
       propertyPath: m_RenderMode
