@@ -44,7 +44,7 @@ Material:
     - _DissolveMap1:
         m_Texture: {fileID: 2800000, guid: c1bb91de79e1d6647a47e6c5de27c6a7, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 1, y: 0}
     - _DissolveMap2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,11 +80,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DissolveAlphaSource: 1
     - _DissolveAlphaSourceTexturesUVSet: 0
-    - _DissolveCutoff: 0
+    - _DissolveCutoff: 0.477
     - _DissolveEdgeColorIntensity: 5
     - _DissolveEdgeDistortionSource: 0
     - _DissolveEdgeDistortionStrength: 0
-    - _DissolveEdgeShape: 0
+    - _DissolveEdgeShape: 1
     - _DissolveEdgeTextureAlphaOffset: 0
     - _DissolveEdgeTextureIsDynamic: 0
     - _DissolveEdgeTextureMipmap: 1
@@ -107,7 +107,7 @@ Material:
     - _DissolveMaskCount: 0
     - _DissolveMaskInvert: 1
     - _DissolveMaskOffset: 0
-    - _DissolveMaskRadius: 764.8521
+    - _DissolveMaskRadius: 750
     - _DissolveMaskSpace: 0
     - _DissolveNoiseStrength: 20
     - _DissolveSourceAlphaTexturesBlend: 0
@@ -129,7 +129,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveEdgeColor: {r: 0.06521726, g: 1, b: 0, a: 1}
-    - _DissolveMap1_Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveMap1_Scroll: {r: 0.25, g: 0, b: 0, a: 0}
     - _DissolveMap2_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMap3_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMaskNormal: {r: 1, g: 0, b: 0, a: 0}

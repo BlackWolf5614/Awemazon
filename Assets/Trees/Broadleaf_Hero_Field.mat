@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 91a0511498947de469145aef07066c64, type: 3}
   m_ShaderKeywords: EFFECT_BUMP EFFECT_EXTRA_TEX EFFECT_HUE_VARIATION _DISSOLVEALPHASOURCE_CUSTOM_MAP
     _DISSOLVEEDGETEXTURESOURCE_NONE _DISSOLVEGLOBALCONTROL_MASK_ONLY _DISSOLVEMAPPINGTYPE_NORMAL
-    _DISSOLVEMASKCOUNT_ONE _DISSOLVEMASK_SPHERE _WINDQUALITY_BEST
+    _DISSOLVEMASKCOUNT_ONE _DISSOLVEMASK_PLANE _WINDQUALITY_BEST
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -86,12 +86,12 @@ Material:
     - _DissolveMap3Channel: 3
     - _DissolveMap3Intensity: 1
     - _DissolveMappingType: 0
-    - _DissolveMask: 3
+    - _DissolveMask: 2
     - _DissolveMaskAxis: 0
     - _DissolveMaskCount: 0
     - _DissolveMaskInvert: 1
     - _DissolveMaskOffset: 0
-    - _DissolveMaskRadius: 24.890268
+    - _DissolveMaskRadius: 9
     - _DissolveMaskSpace: 0
     - _DissolveNoiseStrength: 2
     - _DissolveSourceAlphaTexturesBlend: 0
@@ -111,7 +111,7 @@ Material:
     - _DissolveMap2_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMap3_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMaskNormal: {r: 1, g: 0, b: 0, a: 0}
-    - _DissolveMaskPosition: {r: 0.18, g: -1.2, b: 2.24, a: 0}
+    - _DissolveMaskPosition: {r: 0, g: -5, b: 0, a: 0}
     - _Dissolve_ObjectWorldPos: {r: 0, g: 0, b: 0, a: 0}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}

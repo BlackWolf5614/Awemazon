@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 53bf75bf8fc8c3f488e5d068f3660479, type: 3}
   m_ShaderKeywords: _DISSOLVEALPHASOURCE_TWO_CUSTOM_MAPS _DISSOLVEEDGETEXTURESOURCE_NONE
     _DISSOLVEGLOBALCONTROL_MASK_ONLY _DISSOLVEMAPPINGTYPE_NORMAL _DISSOLVEMASKCOUNT_ONE
-    _DISSOLVEMASK_SPHERE _METALLICGLOSSMAP _NORMALMAP
+    _DISSOLVEMASK_PLANE _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -44,11 +44,11 @@ Material:
     - _DissolveMap1:
         m_Texture: {fileID: 2800000, guid: 515e4b92bdba9b84c98dbd414d1ecac7, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 1, y: 1}
     - _DissolveMap2:
         m_Texture: {fileID: 2800000, guid: b84f53fc9c4823e45b3d8a273af003f2, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 1, y: 1}
     - _DissolveMap3:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -102,12 +102,12 @@ Material:
     - _DissolveMap3Channel: 3
     - _DissolveMap3Intensity: 1
     - _DissolveMappingType: 0
-    - _DissolveMask: 3
+    - _DissolveMask: 2
     - _DissolveMaskAxis: 0
     - _DissolveMaskCount: 0
     - _DissolveMaskInvert: 1
     - _DissolveMaskOffset: 0
-    - _DissolveMaskRadius: 24.890268
+    - _DissolveMaskRadius: 9
     - _DissolveMaskSpace: 0
     - _DissolveNoiseStrength: 1
     - _DissolveSourceAlphaTexturesBlend: 0
@@ -128,10 +128,10 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveEdgeColor: {r: 0.07413671, g: 0.5897967, b: 0.9245283, a: 1}
-    - _DissolveMap1_Scroll: {r: 0, g: 0, b: 0, a: 0}
-    - _DissolveMap2_Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveMap1_Scroll: {r: 0.25, g: 0.25, b: 0, a: 0}
+    - _DissolveMap2_Scroll: {r: 0.25, g: 0.25, b: 0, a: 0}
     - _DissolveMap3_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMaskNormal: {r: 1, g: 0, b: 0, a: 0}
-    - _DissolveMaskPosition: {r: 0.18, g: -1.2, b: 2.24, a: 0}
+    - _DissolveMaskPosition: {r: 0, g: -5, b: 0, a: 0}
     - _Dissolve_ObjectWorldPos: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
