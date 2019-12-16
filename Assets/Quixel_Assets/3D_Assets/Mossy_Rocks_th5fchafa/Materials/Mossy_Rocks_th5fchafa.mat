@@ -111,7 +111,7 @@ Material:
     - _DissolveMaskCount: 0
     - _DissolveMaskInvert: 1
     - _DissolveMaskOffset: 0
-    - _DissolveMaskRadius: 4.622257
+    - _DissolveMaskRadius: 16.640125
     - _DissolveMaskSpace: 0
     - _DissolveNoiseStrength: 1
     - _DissolveSourceAlphaTexturesBlend: 0
