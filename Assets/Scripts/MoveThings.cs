@@ -11,7 +11,6 @@ public class MoveThings : MonoBehaviour
     Vector3 difference;
     Vector3 startPoint;
 
-
     public float startDelay = 3f;
     bool reachedTarget = false;
     bool run = false;
@@ -33,6 +32,7 @@ public class MoveThings : MonoBehaviour
                 timer += Time.deltaTime;
                 percent = timer / timeToHalfwaypoint;
                 transform.position = startPoint + difference * percent;
+                
             }
             else
             {
