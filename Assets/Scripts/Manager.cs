@@ -10,8 +10,10 @@ public class Manager : MonoBehaviour
     public float endGameTime = 10f;
     public float fadeTime = 2f;
     public GameObject[] environment;
+    public GameObject[] environment2;
     float timer;
-    bool turnOff = false;
+    bool turnOff1 = false;
+    bool turnOff2 = false;
 
     private void Update()
     {
@@ -21,19 +23,29 @@ public class Manager : MonoBehaviour
             EndGame(fadeTime);
         }
 
-        if (turnOff == false && timer >= 45 && timer <= 50)
+        if (turnOff1 == false && timer >= 45)
         {
-            turnOff = true;
+            turnOff1 = true;
+            turnOff2 = true;
             foreach (GameObject thing in environment)
             {
                 thing.SetActive(false);
             }
             print("turned off environment");
         }
-        else if(turnOff == true && timer >= 145 && timer <= 150)
+        else if(turnOff1 == true && timer >= 145)
         {
-            turnOff = false;
+            turnOff1 = false;
             foreach (GameObject thing in environment)
+            {
+                thing.SetActive(true);
+            }
+            print("turned on environment");
+        }
+        else if (turnOff2 == true && timer >= 146)
+        {
+            turnOff2 = false;
+            foreach (GameObject thing in environment2)
             {
                 thing.SetActive(true);
             }
