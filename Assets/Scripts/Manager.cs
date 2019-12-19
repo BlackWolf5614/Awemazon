@@ -11,9 +11,11 @@ public class Manager : MonoBehaviour
     public float fadeTime = 2f;
     public GameObject[] environment;
     public GameObject[] environment2;
+    public GameObject[] environment3;
     float timer;
     bool turnOff1 = false;
     bool turnOff2 = false;
+    bool turnOff3 = false;
 
     private void Update()
     {
@@ -23,11 +25,20 @@ public class Manager : MonoBehaviour
             EndGame(fadeTime);
         }
 
-        if (turnOff1 == false && timer >= 45)
+        if (turnOff1 == false && timer >= 45 && timer <= 50)
         {
             turnOff1 = true;
             turnOff2 = true;
+            turnOff3 = true;
             foreach (GameObject thing in environment)
+            {
+                thing.SetActive(false);
+            }
+            foreach (GameObject thing in environment2)
+            {
+                thing.SetActive(false);
+            }
+            foreach (GameObject thing in environment3)
             {
                 thing.SetActive(false);
             }
@@ -46,6 +57,15 @@ public class Manager : MonoBehaviour
         {
             turnOff2 = false;
             foreach (GameObject thing in environment2)
+            {
+                thing.SetActive(true);
+            }
+            print("turned on environment");
+        }
+        else if (turnOff3 == true && timer >= 147)
+        {
+            turnOff3 = false;
+            foreach (GameObject thing in environment3)
             {
                 thing.SetActive(true);
             }

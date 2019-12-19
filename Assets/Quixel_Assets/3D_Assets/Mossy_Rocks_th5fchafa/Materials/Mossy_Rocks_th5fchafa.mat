@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 53bf75bf8fc8c3f488e5d068f3660479, type: 3}
   m_ShaderKeywords: _DISSOLVEALPHASOURCE_TWO_CUSTOM_MAPS _DISSOLVEEDGETEXTURESOURCE_NONE
     _DISSOLVEGLOBALCONTROL_NONE _DISSOLVEMAPPINGTYPE_NORMAL _DISSOLVEMASKCOUNT_ONE
-    _DISSOLVEMASK_SPHERE _NORMALMAP _NORMALMAP_TANGENT_SPACE
+    _DISSOLVEMASK_NONE _NORMALMAP _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -84,7 +84,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DissolveAlphaSource: 2
     - _DissolveAlphaSourceTexturesUVSet: 0
-    - _DissolveCutoff: 0.25
+    - _DissolveCutoff: 0
     - _DissolveEdgeColorIntensity: 1
     - _DissolveEdgeDistortionSource: 0
     - _DissolveEdgeDistortionStrength: 0
@@ -106,7 +106,7 @@ Material:
     - _DissolveMap3Channel: 3
     - _DissolveMap3Intensity: 1
     - _DissolveMappingType: 0
-    - _DissolveMask: 3
+    - _DissolveMask: 0
     - _DissolveMaskAxis: 0
     - _DissolveMaskCount: 0
     - _DissolveMaskInvert: 1
